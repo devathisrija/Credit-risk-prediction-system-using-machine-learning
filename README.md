@@ -41,3 +41,22 @@ It leverages multiple machine learning algorithms and a Flask-based deployment t
 ---
 
 ## 📂 Project Structure  
+
+👉 Use **backticks (\`\`\`)** around the tree so Markdown renders it properly.  
+
+---
+
+### ✅ Option 2: Simple bullet-point style  
+```markdown
+## 📂 Project Structure
+- data/ → Dataset (raw & processed)  
+- notebooks/ → Jupyter notebooks for EDA & experiments  
+- src/ → Python scripts for preprocessing & training  
+- model/ → Saved trained model(s)  
+- app/ → Flask application (backend + frontend)  
+  - app.py → Flask backend  
+  - templates/ → HTML templates  
+  - static/ → CSS / JS / Images  
+- requirements.txt → Dependencies  
+- README.md → Project documentation  
+
