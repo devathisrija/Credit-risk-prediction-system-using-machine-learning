@@ -149,11 +149,11 @@ _Add screenshots of your UI and outputs here_
 Example:  
 
 - **Homepage**  
-![Homepage](https://github.com/devathisrija/Image-and-video-processing-using-open-cv/blob/main/screenshots/Screenshot%20(651).png)
+![Homepage](https://github.com/devathisrija/Credit-risk-prediction-system-using-machine-learning/blob/main/screenshots/Screenshot%20(693).png)
   
 
 - **Prediction Result**  
-![Result](screenshots/result.png)  
+![Result](https://github.com/devathisrija/Credit-risk-prediction-system-using-machine-learning/blob/main/screenshots/Screenshot%20(694).png)  
 
 ---
 
