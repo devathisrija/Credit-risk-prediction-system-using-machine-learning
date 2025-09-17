@@ -40,25 +40,136 @@ It leverages multiple machine learning algorithms and a Flask-based deployment t
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
+```
+credit-card/
+├── app.py                     # Flask application for deployment
+├── index.py                   # Model training / pipeline script
+├── main code file             # Jupyter/Script for EDA & training
+├── cat_to_num.py              # Script for categorical → numerical encoding
+├── variable_transformation.py # Script for feature transformations
+├── missing_values.py          # Script to handle missing values
+├── logging_file.py            # Logging configuration
+├── Credit_card_model_dt       # Saved Decision Tree model (Pickle file)
+├── Credit_card_model_lr       # Saved Logistic Regression model (Pickle file)
+├── Credit_card_model_nb       # Saved Naive Bayes model (Pickle file)
+├── Credit_card_model_rf       # Saved Random Forest model (Pickle file)
+├── Credit_card_model_knn      # Saved KNN model (Pickle file)
+├── Credit_card_model1         # Another saved model file
+│
+├── templates/                 # HTML templates for Flask frontend
+│   └── index.html             # Main HTML form for user inputs
+│
+├── models/                    # Folder to store trained ML models
+├── __pycache__/               # Python cache files
+├── .idea/                     # IDE settings (PyCharm/VSCode)
+├── .venv/                     # Virtual environment
+└── README.md                  # Project documentation
+```
+## ⚙️ Installation
 
-```
-project/
-├── data/                     # Dataset (raw & processed)  
-├── notebooks/                # Jupyter notebooks for EDA & experiments  
-├── src/                      # Preprocessing & training scripts  
-│   ├── preprocessing.py  
-│   ├── train_model.py  
-│   └── utils.py  
-├── model/                    # Saved trained models  
-├── app/  
-│   ├── app.py                # Flask backend  
-│   ├── templates/            # HTML templates (UI)  
-│   │   └── index.html  
-│   └── static/               # CSS / JS / Images  
-├── requirements.txt          # Dependencies  
-└── README.md                 # Documentation  
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/credit-risk-prediction.git
+   cd credit-risk-prediction
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/Scripts/activate   # On Windows
+   source .venv/bin/activate       # On Mac/Linux
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 🚀 Usage
+
+1. Train and save models (if not already trained):
+   ```bash
+   python index.py
+   ```
+
+2. Start the Flask server:
+   ```bash
+   python app.py
+   ```
+
+3. Open your browser and go to:
+   ```
+   http://127.0.0.1:5000/
+   ```
+
+4. Enter customer details such as:
+   - Revolving Utilization  
+   - Age  
+   - Open Credit Lines and Loans  
+   - Real Estate Loans or Lines  
+   - Monthly Income  
+   - Number of Dependents  
+   - Gender  
+   - Region  
+   - Occupation  
+   - Education  
+
+   and click **Predict** to get real-time creditworthiness (Good/Bad).
+
+---
+
+## 📊 Models Used
+
+The following machine learning algorithms were trained and evaluated:
+- K-Nearest Neighbors (KNN)  
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
+- Naive Bayes  
+
+The best-performing model was selected based on **Accuracy, Precision, Recall, and F1-score**.
+
+---
+
+## 📈 Results
+
+- Implemented a complete preprocessing pipeline (missing value handling, encoding, scaling, feature selection).  
+- Achieved reliable prediction accuracy across multiple models.  
+- Random Forest provided the best performance in most test cases.  
+- Deployed final model for **real-time predictions** through Flask.  
+
+---
+
+## 📷 Screenshots
+
+_Add screenshots of your UI and outputs here_  
+Example:  
+
+- **Homepage**  
+![Homepage](screenshots/homepage.png)  
+
+- **Prediction Result**  
+![Result](screenshots/result.png)  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python 3.10+**  
+- **Flask** (Backend)  
+- **HTML, CSS** (Frontend)  
+- **Scikit-learn** (ML Models)  
+- **Pandas & NumPy** (Data Processing)  
+- **Matplotlib & Seaborn** (Visualization)  
+- **Pickle** (Model Serialization)  
+
+---
+
+
+
 
 
 
