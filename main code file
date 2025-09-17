@@ -1,0 +1,261 @@
+2025-07-16 20:43:57,553 - INFO - NPA Status                                  2
+RevolvingUtilizationOfUnsecuredLines        2
+age                                         2
+Gender                                      2
+Region                                      2
+MonthlyIncome                           29733
+Rented_OwnHouse                             2
+Occupation                                  2
+Education                                   2
+NumberOfTime30-59DaysPastDueNotWorse        2
+DebtRatio                                   2
+MonthlyIncome.1                         29733
+NumberOfOpenCreditLinesAndLoans             2
+NumberOfTimes90DaysLate                     2
+NumberRealEstateLoansOrLines                2
+NumberOfTime60-89DaysPastDueNotWorse        2
+NumberOfDependents                       3924
+Good_Bad                                    2
+dtype: int64
+2025-07-16 20:43:57,556 - INFO -         NPA Status  RevolvingUtilizationOfUnsecuredLines  age Gender  ... NumberRealEstateLoansOrLines  NumberOfTime60-89DaysPastDueNotWorse NumberOfDependents Good_Bad
+150000         NaN                                   NaN  NaN    NaN  ...                          NaN                                   NaN               Good      NaN
+150001         NaN                                   NaN  NaN    NaN  ...                          NaN                                   NaN                Bad      NaN
+
+[2 rows x 18 columns]
+2025-07-16 20:43:57,672 - INFO - NPA Status                                  0
+RevolvingUtilizationOfUnsecuredLines        0
+age                                         0
+Gender                                      0
+Region                                      0
+MonthlyIncome                           29731
+Rented_OwnHouse                             0
+Occupation                                  0
+Education                                   0
+NumberOfTime30-59DaysPastDueNotWorse        0
+DebtRatio                                   0
+NumberOfOpenCreditLinesAndLoans             0
+NumberOfTimes90DaysLate                     0
+NumberRealEstateLoansOrLines                0
+NumberOfTime60-89DaysPastDueNotWorse        0
+NumberOfDependents                       3924
+Good_Bad                                    0
+dtype: int64
+2025-07-16 20:43:57,742 - INFO - (120000, 16)
+2025-07-16 20:43:57,742 - INFO - (30000, 16)
+2025-07-16 20:43:57,742 - INFO - float64
+2025-07-16 20:43:57,897 - INFO - NPA Status                                  0
+RevolvingUtilizationOfUnsecuredLines        0
+age                                         0
+Gender                                      0
+Region                                      0
+MonthlyIncome                           23767
+Rented_OwnHouse                             0
+Occupation                                  0
+Education                                   0
+NumberOfTime30-59DaysPastDueNotWorse        0
+DebtRatio                                   0
+NumberOfOpenCreditLinesAndLoans             0
+NumberOfTimes90DaysLate                     0
+NumberRealEstateLoansOrLines                0
+NumberOfTime60-89DaysPastDueNotWorse        0
+NumberOfDependents                       3165
+MonthlyIncome_filled                        0
+NumberOfDependents_filled                   0
+dtype: int64
+2025-07-16 20:43:57,903 - INFO - 11668.579441807824
+2025-07-16 20:43:57,906 - INFO - 34768.24463506039
+2025-07-16 20:43:57,941 - INFO - NPA Status                                 0
+RevolvingUtilizationOfUnsecuredLines       0
+age                                        0
+Gender                                     0
+Region                                     0
+MonthlyIncome                           5964
+Rented_OwnHouse                            0
+Occupation                                 0
+Education                                  0
+NumberOfTime30-59DaysPastDueNotWorse       0
+DebtRatio                                  0
+NumberOfOpenCreditLinesAndLoans            0
+NumberOfTimes90DaysLate                    0
+NumberRealEstateLoansOrLines               0
+NumberOfTime60-89DaysPastDueNotWorse       0
+NumberOfDependents                       759
+MonthlyIncome_filled                       0
+NumberOfDependents_filled                  0
+dtype: int64
+2025-07-16 20:43:57,956 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_filled', 'NumberOfDependents_filled'],
+      dtype='object')
+2025-07-16 20:43:57,956 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_filled', 'NumberOfDependents_filled'],
+      dtype='object')
+2025-07-16 20:43:57,981 - INFO - NPA Status                              0
+RevolvingUtilizationOfUnsecuredLines    0
+age                                     0
+Gender                                  0
+Region                                  0
+Rented_OwnHouse                         0
+Occupation                              0
+Education                               0
+NumberOfTime30-59DaysPastDueNotWorse    0
+DebtRatio                               0
+NumberOfOpenCreditLinesAndLoans         0
+NumberOfTimes90DaysLate                 0
+NumberRealEstateLoansOrLines            0
+NumberOfTime60-89DaysPastDueNotWorse    0
+MonthlyIncome_filled                    0
+NumberOfDependents_filled               0
+dtype: int64
+2025-07-16 20:43:57,989 - INFO - NPA Status                              0
+RevolvingUtilizationOfUnsecuredLines    0
+age                                     0
+Gender                                  0
+Region                                  0
+Rented_OwnHouse                         0
+Occupation                              0
+Education                               0
+NumberOfTime30-59DaysPastDueNotWorse    0
+DebtRatio                               0
+NumberOfOpenCreditLinesAndLoans         0
+NumberOfTimes90DaysLate                 0
+NumberRealEstateLoansOrLines            0
+NumberOfTime60-89DaysPastDueNotWorse    0
+MonthlyIncome_filled                    0
+NumberOfDependents_filled               0
+dtype: int64
+2025-07-16 20:43:58,015 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_filled', 'NumberOfDependents_filled'],
+      dtype='object')
+2025-07-16 20:43:58,024 - INFO - Index(['NPA Status_sqrt', 'RevolvingUtilizationOfUnsecuredLines_sqrt',
+       'age_sqrt', 'NumberOfTime30-59DaysPastDueNotWorse_sqrt',
+       'DebtRatio_sqrt', 'NumberOfOpenCreditLinesAndLoans_sqrt',
+       'NumberOfTimes90DaysLate_sqrt', 'NumberRealEstateLoansOrLines_sqrt',
+       'NumberOfTime60-89DaysPastDueNotWorse_sqrt',
+       'MonthlyIncome_filled_sqrt', 'NumberOfDependents_filled_sqrt'],
+      dtype='object')
+2025-07-16 20:43:58,024 - INFO - (120000, 11)
+2025-07-16 20:43:58,169 - INFO - Index(['NPA Status_sqrt_trim',
+       'RevolvingUtilizationOfUnsecuredLines_sqrt_trim', 'age_sqrt_trim',
+       'NumberOfTime30-59DaysPastDueNotWorse_sqrt_trim', 'DebtRatio_sqrt_trim',
+       'NumberOfOpenCreditLinesAndLoans_sqrt_trim',
+       'NumberOfTimes90DaysLate_sqrt_trim',
+       'NumberRealEstateLoansOrLines_sqrt_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_sqrt_trim',
+       'MonthlyIncome_filled_sqrt_trim',
+       'NumberOfDependents_filled_sqrt_trim'],
+      dtype='object')
+2025-07-16 20:43:58,169 - INFO - (120000, 11)
+2025-07-16 20:43:58,169 - INFO - outliers :(30000, 11)
+2025-07-16 20:43:58,223 - INFO -         Gender_Female  Gender_Male  Region_Central  Region_East  Region_North  Region_South  Region_West
+0                 1.0          0.0             0.0          0.0           0.0           0.0          1.0
+1                 0.0          1.0             0.0          0.0           0.0           1.0          0.0
+2                 1.0          0.0             1.0          0.0           0.0           0.0          0.0
+3                 0.0          1.0             0.0          0.0           0.0           0.0          1.0
+4                 1.0          0.0             1.0          0.0           0.0           0.0          0.0
+...               ...          ...             ...          ...           ...           ...          ...
+119995            0.0          1.0             0.0          0.0           0.0           0.0          1.0
+119996            0.0          1.0             0.0          0.0           0.0           0.0          1.0
+119997            0.0          1.0             0.0          1.0           0.0           0.0          0.0
+119998            0.0          1.0             0.0          0.0           0.0           1.0          0.0
+119999            1.0          0.0             0.0          1.0           0.0           0.0          0.0
+
+[120000 rows x 7 columns]
+2025-07-16 20:43:58,273 - INFO - Gender             0
+Region             0
+Rented_OwnHouse    0
+Occupation         0
+Education          0
+Gender_Female      0
+Gender_Male        0
+Region_Central     0
+Region_East        0
+Region_North       0
+Region_South       0
+Region_West        0
+dtype: int64
+2025-07-16 20:43:58,363 - INFO - Index(['Gender_Female', 'Gender_Male', 'Region_Central', 'Region_East',
+       'Region_North', 'Region_South', 'Region_West', 'Rented_OwnHouse',
+       'Occupation', 'Education'],
+      dtype='object')
+2025-07-16 20:43:58,377 - INFO -         Gender_Female  Gender_Male  Region_Central  Region_East  Region_North  Region_South  Region_West
+0                 1.0          0.0             0.0          0.0           0.0           0.0          1.0
+1                 0.0          1.0             0.0          0.0           0.0           1.0          0.0
+2                 1.0          0.0             1.0          0.0           0.0           0.0          0.0
+3                 0.0          1.0             0.0          0.0           0.0           0.0          1.0
+4                 1.0          0.0             1.0          0.0           0.0           0.0          0.0
+...               ...          ...             ...          ...           ...           ...          ...
+119995            0.0          1.0             0.0          0.0           0.0           0.0          1.0
+119996            0.0          1.0             0.0          0.0           0.0           0.0          1.0
+119997            0.0          1.0             0.0          1.0           0.0           0.0          0.0
+119998            0.0          1.0             0.0          0.0           0.0           1.0          0.0
+119999            1.0          0.0             0.0          1.0           0.0           0.0          0.0
+
+[120000 rows x 7 columns]
+2025-07-16 20:43:58,393 - INFO - Gender             0
+Region             0
+Rented_OwnHouse    0
+Occupation         0
+Education          0
+Gender_Female      0
+Gender_Male        0
+Region_Central     0
+Region_East        0
+Region_North       0
+Region_South       0
+Region_West        0
+dtype: int64
+2025-07-16 20:43:58,423 - INFO - x_test : Index(['Gender_Female', 'Gender_Male', 'Region_Central', 'Region_East',
+       'Region_North', 'Region_South', 'Region_West', 'Rented_OwnHouse',
+       'Occupation', 'Education'],
+      dtype='object')
+2025-07-16 20:43:58,424 - INFO - before: (120000, 11)
+2025-07-16 20:43:58,425 - INFO - (30000, 11)
+2025-07-16 20:43:58,453 - INFO - 7
+2025-07-16 20:43:58,453 - INFO - Index(['RevolvingUtilizationOfUnsecuredLines_sqrt_trim', 'age_sqrt_trim',
+       'DebtRatio_sqrt_trim', 'NumberOfOpenCreditLinesAndLoans_sqrt_trim',
+       'NumberRealEstateLoansOrLines_sqrt_trim',
+       'MonthlyIncome_filled_sqrt_trim',
+       'NumberOfDependents_filled_sqrt_trim'],
+      dtype='object')
+2025-07-16 20:43:58,454 - INFO - constant :Index(['NPA Status_sqrt_trim',
+       'NumberOfTime30-59DaysPastDueNotWorse_sqrt_trim',
+       'NumberOfTimes90DaysLate_sqrt_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_sqrt_trim'],
+      dtype='object')
+2025-07-16 20:43:58,467 - INFO - (120000, 7)
+2025-07-16 20:43:58,467 - INFO - (30000, 7)
+2025-07-16 20:43:58,538 - INFO - correlation :Index(['RevolvingUtilizationOfUnsecuredLines_sqrt_trim', 'age_sqrt_trim',
+       'NumberOfOpenCreditLinesAndLoans_sqrt_trim',
+       'NumberRealEstateLoansOrLines_sqrt_trim',
+       'MonthlyIncome_filled_sqrt_trim',
+       'NumberOfDependents_filled_sqrt_trim'],
+      dtype='object')
+2025-07-16 20:43:58,555 - INFO - training data shape :(120000, 16)
+2025-07-16 20:43:58,560 - INFO - testing data shape :(30000, 16)
+2025-07-16 20:43:58,613 - INFO - before y_train->0 8070
+2025-07-16 20:43:58,622 - INFO - before y_train->1 111930
+2025-07-16 20:44:03,462 - INFO - after y_train->0 111930
+2025-07-16 20:44:03,478 - INFO - after y_train->1 111930
+2025-07-16 20:46:36,820 - INFO - {'class_weight': 'balanced', 'criterion': 'entropy'}
+2025-07-16 20:46:36,820 - INFO - Index(['RevolvingUtilizationOfUnsecuredLines_sqrt_trim', 'age_sqrt_trim',
+       'NumberOfOpenCreditLinesAndLoans_sqrt_trim',
+       'NumberRealEstateLoansOrLines_sqrt_trim',
+       'MonthlyIncome_filled_sqrt_trim', 'NumberOfDependents_filled_sqrt_trim',
+       'Gender_Female', 'Gender_Male', 'Region_Central', 'Region_East',
+       'Region_North', 'Region_South', 'Region_West', 'Rented_OwnHouse',
+       'Occupation', 'Education'],
+      dtype='object')
+2025-07-16 20:46:39,030 - INFO - models dumped
+2025-07-16 20:46:39,030 - INFO - [1]

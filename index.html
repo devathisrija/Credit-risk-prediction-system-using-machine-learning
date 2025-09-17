@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DataScience Intern at ViharaTech</title>
+  <style>
+    body { font-family: Arial; margin: 0; padding: 0;}
+    header, footer { background: #2c3e50; color: white; text-align: center; padding: 1em;}
+    .container { display: flex; }
+    .left, .right { flex: 1; padding: 20px; }
+    .left { background: #ecf0f1;}
+    .right { background: #bdc3c7; text-align: center;}
+    .model-buttons { margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+    .model-buttons button {
+      padding: 10px 20px;
+      background: #2980b9; color: white; border: none; cursor: pointer;
+    }
+    .model-buttons button:hover { background: #3498db; }
+    .result { margin-top: 20px; font-size: 1.2em; }
+    input, select { margin-bottom: 10px; width: 100%; }
+  </style>
+</head>
+<body>
+  <header><h1>DataScience Intern at ViharaTech</h1></header>
+  <div class="container">
+    <div class="left">
+      <form id="mainForm" method="POST" action="/">
+        {% for field,label in [
+          ('RevolvingUtilizationOfUnsecuredLine','Revolving Utilization'),
+          ('age','Age'),
+          ('NumberOfOpenCreditLinesAndLoans','Open Credit Lines and Loans'),
+          ('NumberRealEstateLoansOrLines','Real Estate Loans or Lines'),
+          ('MonthlyIncome','Monthly Income'),
+          ('NumberOfDependents','Number of Dependents')
+        ] %}
+          <label>{{ label }}:</label>
+          <input name="{{ field }}" type="number" step="any" required>
+        {% endfor %}
+        <label>Gender:</label>
+        <select name="Gender" required>
+          <option value="">--Select--</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <label>Region:</label>
+        <select name="Region" required>
+          <option value="">--Select--</option>
+          <option>central</option><option>east</option><option>west</option><option>south</option>
+        </select>
+        <label>House Type:</label>
+        <select name="Rented_OwnHouse" required>
+          <option value="">--Select--</option><option>rented</option><option>own house</option>
+        </select>
+        <label>Occupation:</label>
+        <select name="Occupation" required>
+          <option value="">--Select--</option>
+          <option>non-officer</option><option>officer1</option><option>officer2</option><option>officer3</option><option>self-emp</option>
+        </select>
+        <label>Education:</label>
+        <select name="Education" required>
+          <option value="">--Select--</option>
+          <option>graduate</option><option>matric</option><option>phd</option><option>post graduate</option><option>professional</option>
+        </select>
+        <input type="hidden" name="selected_model" id="selected_model">
+      </form>
+    </div>
+
+    <div class="right">
+      <h3>Select Model to Predict</h3>
+      <div class="model-buttons">
+        {% for model in ['Decision Tree','Random Forest','Logistic Regression','K Nearest Neighbor','Naive Bayes'] %}
+          <button type="button" onclick="submitModel('{{ model }}')">{{ model }}</button>
+        {% endfor %}
+      </div>
+      {% if prediction %}
+        <div class="result"><strong>{{ selected_model }}:</strong> {{ prediction }}</div>
+      {% endif %}
+    </div>
+  </div>
+  <footer>Project by Devathi Srija</footer>
+
+  <script>
+    function submitModel(modelName) {
+      document.getElementById('selected_model').value = modelName;
+      document.getElementById('mainForm').submit();
+    }
+  </script>
+</body>
+</html>
+
